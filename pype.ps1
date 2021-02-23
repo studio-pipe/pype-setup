@@ -755,6 +755,6 @@ $return_code = 0
 if ($LASTEXITCODE -ne 0) {
   $return_code = $LASTEXITCODE
 }
-Log-Msg -Text "<<< ", "Terminanting ", "pype", " ..." -Color Cyan, Gray, White
+Log-Msg -Text "<<< ", "Terminating ", "pype", " ..." -Color Cyan, Gray, White
 Deactivate-Venv
 ExitWithCode $return_code
